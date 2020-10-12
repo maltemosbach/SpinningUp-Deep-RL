@@ -1,5 +1,5 @@
-#Vanilla Policy Gradient (VPG)
-##Key facts
+# Vanilla Policy Gradient (VPG)
+## Key facts
 
-##Algorithm
+## Algorithm
 ![VPG pseudocode algorithm](../../docs/images/VPG.svg)
