@@ -1,7 +1,16 @@
 # Vanilla Policy Gradient (VPG)
 
-## Overview
-In vanilla policy gradient (VPG) we train a stochastic policy <img align="center" src="../../docs/images/VPG/pi_theta.svg" alt="\pi_{\theta}"/> or <img align="center" src="../../docs/images/VPG/pi_theta_125.svg" alt="\pi_{\theta}"/> or <img align="center" src="../../docs/images/VPG/pi_theta_150.svg" alt="\pi_{\theta}"/> or <img class="math" src="../../docs/images/VPG/6a71f04b65d9524fb656715cda85d7540a9ddf9f.svg" alt="\pi_{\theta}" vertical-align="middle"/> in an on policy way to maximize the performance J(pi_theta).
+## Background
+### Notations
+Symbol | Description
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+### Derivation
+Policy gradient methods operate by optimizing the policy directly such that the return <img align="center" src="../../docs/images/VPG/J.svg" alt="J"/> is maximized. Using *gradient ascent*, the parameters <img align="center" src="../../docs/images/VPG/theta.svg" alt="theta"/> can be moved into the direction suggested by <img align="center" src="../../docs/images/VPG/Nable-of-J.svg" alt="\nabla_\theta J(\theta)"/> to obtain a policy <img align="center" src="../../docs/images/VPG/pi_theta.svg" alt="\pi_{\theta}"/> that maximizes the return.
+
+In *vanilla policy gradient (VPG)* we train a **stochastic** policy <img align="center" src="../../docs/images/VPG/pi_theta.svg" alt="\pi_{\theta}"/> in an **on policy** way to maximize the performance <img align="center" src="../../docs/images/VPG/J-of-pi_theta.svg" alt="J(\pi_{\theta})"/>.
 
 
 
